@@ -85,15 +85,75 @@
               </h2>
               <div class="form-container">
                 <form class="form">
-                  <div class="form-field">
+                  <span class="form-name-style">Имя</span>
+                  <label class="form-field">
                     <input
                       type="text"
                       class="form-input"
                       name="name"
-                      id="name"
+                      placeholder=" "
                     />
-                    <label for="name" class="form-label">Имя</label>
-                  </div>
+                    <span class="icon">
+                      <svg class="form-icon-name">
+                        <use
+                          xlink:href="./assets/image/sprite2.svg#icon-person-black-18dp-1"
+                        />
+                      </svg>
+                    </span>
+                  </label>
+                  <span class="form-name-style">Телефон</span>
+                  <label class="form-field">
+                    <input
+                      type="tel"
+                      class="form-input"
+                      name="number"
+                      placeholder=" "
+                    />
+                    <span class="icon">
+                      <svg class="form-icon-phone">
+                        <use
+                          xlink:href="./assets/image/sprite2.svg#icon-phone-black-18dp-1"
+                        />
+                      </svg>
+                    </span>
+                  </label>
+                  <span class="form-name-style">Почта</span>
+                  <label class="form-field">
+                    <input
+                      type="email"
+                      class="form-input"
+                      name="mail"
+                      placeholder=" "
+                    />
+                    <span class="icon">
+                      <svg class="form-icon-email">
+                        <use
+                          xlink:href="./assets/image/sprite2.svg#icon-email-black-18dp-1"
+                        />
+                      </svg>
+                    </span>
+                  </label>
+                  <label class="label-textarea">
+                    <span class="textarea-comment-style">Комментарий</span>
+                    <textarea
+                      name="comment"
+                      id="comment-textarea"
+                      placeholder="Введите текст"
+                    ></textarea>
+                  </label>
+                  <!-- Checkbox -->
+                  <label class="form-checkbox-style">
+                    <input type="checkbox" name="policy" class="checkbox" />
+                    <span class="checkbox-icon"></span>
+                    <span class="form-checkbox-text-style"
+                      >Соглашаюсь с рассылкой и принимаю
+                      <span>Условия договора</span>
+                    </span>
+                  </label>
+                  <!-- Button form -->
+                  <button class="form-button-style" type="submit">
+                    <span class="form-button-text">Отправить</span>
+                  </button>
                 </form>
               </div>
             </div>
@@ -596,11 +656,20 @@
           </div>
           <!--button-->
           <div class="button-footer">
-            <h4 class="footer--subscribe--header">Подпишитесь на рассылку</h4>
-            <form action="doc.php" method="post">
-              <input type="text" name="fio" value="E-mail" size="37" />
-              <input type="submit" name="fio" value="Подписаться" />
+            <form action="doc.php" method="post" class="footer-form">
+              <h4 class="footer--subscribe--header">Подпишитесь на рассылку</h4>
+              <label class="footer-label">
+                <input
+                  type="text"
+                  name="fio"
+                  placeholder="E-mail"
+                  class="footer-input"
+                />
+              </label>
             </form>
+            <button class="button-footer-style">
+              <span>Подписаться</span>
+            </button>
           </div>
         </div>
       </div>
