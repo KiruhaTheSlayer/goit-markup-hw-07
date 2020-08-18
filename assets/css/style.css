@@ -571,14 +571,16 @@ figure {
   color: #757575;
 }
 
-.form-icon-name {
+.icon {
   position: absolute;
 
-  top: 180%;
-  left: 0;
+  top: 0%;
+  left: 12px;
 
-  transform: translateX(-12px);
+  transform: translateY(1px);
+}
 
+.form-icon-name {
   width: 18px;
   height: 18px;
 
@@ -586,13 +588,6 @@ figure {
 }
 
 .form-icon-phone {
-  position: absolute;
-
-  top: 182%;
-  left: 0;
-
-  transform: translateX(-40px);
-
   width: 18px;
   height: 18px;
 
@@ -600,13 +595,6 @@ figure {
 }
 
 .form-icon-email {
-  position: absolute;
-
-  top: 185%;
-  left: 0;
-
-  transform: translateX(-24px);
-
   width: 18px;
   height: 18px;
 
