@@ -241,6 +241,7 @@
         </div>
       </section>
     </main>
+
     <!--info footer-->
     <footer>
       <div class="footer-container container">
@@ -313,11 +314,20 @@
           </div>
           <!--button-->
           <div class="button-footer">
-            <h4 class="footer--subscribe--header">Подпишитесь на рассылку</h4>
-            <form action="doc.php" method="post">
-              <input type="text" name="fio" value="E-mail" size="37" />
-              <input type="submit" name="fio" value="Подписаться" />
+            <form action="doc.php" method="post" class="footer-form">
+              <h4 class="footer--subscribe--header">Подпишитесь на рассылку</h4>
+              <label class="footer-label">
+                <input
+                  type="text"
+                  name="fio"
+                  placeholder="E-mail"
+                  class="footer-input"
+                />
+              </label>
             </form>
+            <button class="button-footer-style">
+              <span>Подписаться</span>
+            </button>
           </div>
         </div>
       </div>
