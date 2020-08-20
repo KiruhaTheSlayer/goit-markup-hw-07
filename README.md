@@ -1,3 +1,3 @@
 # webstudio
  my school project link
-https://kiruhatheslayer.github.io/goit-markup-hw-06/
+https://kiruhatheslayer.github.io/goit-markup-hw-07/
