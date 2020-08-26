@@ -1,10 +1,13 @@
+$font-stack: Roboto, sans-serif;
+$primary-color: #fff;
+
 html {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Roboto;
-  background-color: #ffffff;
+  font-family: $font-stack;
+  background-color: $primary-color;
   margin: 0;
 }
 

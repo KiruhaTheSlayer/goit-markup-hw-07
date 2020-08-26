@@ -1,6 +1,12 @@
+$footer-bg-color: #2f303a;
+$footer-icon-fill: #ffffff;
+$footer-icons-color-bg: rgba(255, 255, 255, 0.1);
+$footer-icon-hover: #2196f3;
+$footer-font-style-white: #ffffff;
+
 /* footer style */
 footer {
-  background: #2f303a;
+  background: $footer-bg-color;
 }
 
 .footer-container {
@@ -28,7 +34,7 @@ footer {
   line-height: 31px;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: $footer-font-style-white;
 }
 
 .email--no--decaration {
@@ -160,14 +166,14 @@ footer {
 
   border-radius: 2em;
 
-  fill: #ffffff;
-  background: rgba(255, 255, 255, 0.1);
+  fill: $footer-icon-fill;
+  background: $footer-icons-color-bg;
 
   transition: 250ms;
 }
 
 .footer-logo-style:hover {
-  background-color: #2196f3;
+  background-color: $footer-icon-hover;
 }
 
 /* .footer-list-item {

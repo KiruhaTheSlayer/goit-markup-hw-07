@@ -1,3 +1,6 @@
+$costomers-list-fill: #afb1b8;
+$costomers-list-hover: #2196f3;
+
 /* costomers */
 .costomers-list {
   display: flex;
@@ -28,17 +31,17 @@
   align-items: center;
   justify-content: center;
 
-  border: 1px solid #afb1b8;
+  border: 1px solid $costomers-list-fill;
   border-radius: 4px;
 
-  fill: #afb1b8;
+  fill: $costomers-list-fill;
 
   transition: 250ms;
 }
 
 .costomers-list-item:hover {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
+  fill: $costomers-list-hover;
+  border: 1px solid $costomers-list-hover;
 }
 
 .costomers-list-item:nth-child(n + 2) {

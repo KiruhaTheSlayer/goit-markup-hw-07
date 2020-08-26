@@ -1,3 +1,14 @@
+$logo-header-color-first: #2196f3;
+$logo-header-color-second: #000000;
+
+$site-nav-links: #000000;
+$site-nav-links-hover: #2196f3;
+
+$email-number-color-fonts: #757575;
+$email-number-color-icon: #757575;
+$email-number-color-fonts-hover: #2196f3;
+$email-number-color-icon-hover: #2196f3;
+
 /* logo and nav */
 .main-header {
   border-bottom: 1px solid #ececec;
@@ -33,7 +44,7 @@
   font-size: 26px;
   line-height: 31px;
 
-  color: #2196f3;
+  color: $logo-header-color-first;
 }
 
 .font--style--black {
@@ -43,7 +54,7 @@
   font-size: 26px;
   line-height: 31px;
 
-  color: #000000;
+  color: $logo-header-color-second;
 }
 
 /* links */
@@ -65,7 +76,7 @@
 }
 
 .site-nav .links {
-  color: #000000;
+  color: $site-nav-links;
 }
 
 .site-nav .links {
@@ -75,7 +86,7 @@
 .site-nav .links:hover,
 .site-nav .links:focus,
 .site-nav .links:active {
-  color: #2196f3;
+  color: $site-nav-links-hover;
 }
 
 .studio::after {
@@ -265,8 +276,8 @@
   font-size: 14px;
   line-height: 16px;
 
-  color: #757575;
-  fill: #757575;
+  color: $email-number-color-fonts;
+  fill: $email-number-color-icon;
 
   transition: 250ms;
 }
@@ -280,8 +291,8 @@
 
 .email--style:hover,
 .email--style:focus {
-  color: #2196f3;
-  fill: #2196f3;
+  color: $email-number-color-fonts-hover;
+  fill: $email-number-color-icon-hover;
 }
 
 .number--style {

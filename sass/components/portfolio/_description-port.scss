@@ -1,3 +1,8 @@
+$projects-dis-items-color: #ffffff;
+$projects-dis-items-border-color: #eeeeee;
+$portfolio-title-color: #212121;
+$portfolio-card-description-color: #757575;
+
 /* description */
 .projects-dis-list {
   display: flex;
@@ -14,8 +19,8 @@
   margin-right: 30px;
   margin-bottom: 30px;
 
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  background: $projects-dis-items-color;
+  border: 1px solid $projects-dis-items-border-color;
 
   cursor: pointer;
 
@@ -48,7 +53,7 @@
   line-height: 36px;
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: $portfolio-title-color;
 
   margin-top: 20px;
   padding: 0 24px 0;
@@ -60,7 +65,7 @@
   line-height: 30px;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: $portfolio-card-description-color;
 
   margin-top: 4px;
   margin-bottom: 20px;
